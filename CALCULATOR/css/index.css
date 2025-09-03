@@ -1,8 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 15px;
+}
+
 #calculator {
-    border: 1px solid rgb(95,93,93);
+    border: 2px solid black;
     border-radius: 5px;
     width: 200px;
 }
+
 #display {
     margin: 10px;
     width: 85%;

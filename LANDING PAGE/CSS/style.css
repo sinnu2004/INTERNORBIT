@@ -8,7 +8,7 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   color: #22223b; 
-  background: linear-gradient(90deg, #352F87 0%, #FD9041 100%);
+  background: linear-gradient(90deg, #3b3866 0%, #77d3dace 100%);
 }
 
 
@@ -17,7 +17,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(120deg, #090e1d 0%, #1c2746 60%, #35b8b4 120%);
+  background: linear-gradient(120deg, #6173aa 0%, #8f689b 60%, #35b8b4 120%);
   color: #fdc830;
   padding: 1.5rem 6vw;
   box-shadow: 0 2px 8px rgba(98, 136, 124, 0.747);
@@ -88,7 +88,7 @@ nav a:hover {
   justify-content: space-between;
   padding: 4rem 6vw 2rem 6vw;
   min-height: 60vh;
-  background: #7c756af1;
+  background: #da8377f1;
   border-radius: 0 0 2rem 2rem;
   margin-bottom: 2rem;
   gap: 2rem;
@@ -150,7 +150,7 @@ nav a:hover {
 /* FEATURES */
 .features {
   padding: 3rem 6vw 2rem 6vw;
-  background: #7c756ad0;
+  background: #da8377f1;
   margin-bottom: 2rem;
   border-radius: 2rem;
 }
@@ -243,7 +243,7 @@ nav a:hover {
 /* TESTIMONIALS */
 .testimonials {
   padding: 3rem 6vw 2rem 6vw;
-  background: #7c756ad0;
+  background: #da8377f1;
   margin-bottom : 2rem;
   border-radius: 2rem;
   overflow: visible; /* Allow cards to overlap visibility */
@@ -259,14 +259,8 @@ nav a:hover {
 /* Container for testimonial cards*/
 .testimonial-cards {
   display: flex;
-  justify-content: center;
-  gap: 0; 
-  position: relative;
-  padding-left: 3rem;  
-  padding-right: 3rem; 
-  flex-wrap: nowrap;   
+  justify-content: center;    
   max-width: 100%;
-  overflow-x: visible;
 }
 
 /* Base card styling */
@@ -274,51 +268,12 @@ nav a:hover {
   background: #c9c0d1d0;
   border-radius: 1.2rem;
   box-shadow: 0 8px 40px #fdc83012;
+  margin: 10px;
   padding: 1.5rem 1.8rem;
   max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  transition: transform 0.3s ease;
-  box-sizing: border-box;
-  flex-shrink: 0;
-}
-
-/* Overlapping effect - horizontal translate and scale */
-.testimonial:nth-child(1) {
-  transform: translateX(0) scale(0.85);
-  z-index: 1;
-  margin-right: -60px;
-  opacity: 0.8;
-}
-
-.testimonial:nth-child(2) {
-  transform: translateX(-20px) scale(1);
-  z-index: 3;
-  margin-right: -60px;
-  opacity: 1;
-}
-
-.testimonial:nth-child(3) {
-  transform: translateX(-40px) scale(1.05);
-  z-index: 4;
-  margin-right: -60px;
-  opacity: 1;
-}
-
-.testimonial:nth-child(4) {
-  transform: translateX(-60px) scale(1);
-  z-index: 3;
-  margin-right: -60px;
-  opacity: 1;
-}
-
-.testimonial:nth-child(5) {
-  transform: translateX(-80px) scale(0.85);
-  z-index: 1;
-  margin-right: -60px;
-  opacity: 0.8;
 }
 
 
@@ -359,7 +314,7 @@ nav a:hover {
 .about {
   display: flex;
   padding: 3rem 6vw 2rem 6vw;
-  background: #7c756ad0;
+  background: #da8377f1;
   margin-bottom : 2rem;
   border-radius: 2rem;
 }
@@ -418,9 +373,8 @@ nav a:hover {
 /* FOOTER SECTION */
 footer {
   padding: 3rem 6vw 2rem 6vw;
-  background: #7c756ad0;
-  margin-bottom: 2rem;
-  border-radius: 2rem;
+  background: #da8377f1;
+  border-radius: 2rem 2rem 0 0;
 }
 
 .footer-content {
@@ -443,11 +397,11 @@ footer {
 
 
 .footer-section h3 {
-  color: #ac892a;
+  color: #372aac;
   font-size: 1.06rem;
   margin-bottom: 1rem;
   white-space: nowrap;
-  align-self: center;
+  
 }
 
 .footer-section span {
@@ -477,7 +431,7 @@ footer {
 
 .footer-hr {
   border: none;
-  border-top: 1.5px solid #b49b6c;
+  border-top: 1.5px solid black;
   margin: 1rem 0 0.7rem 0;
   opacity: 0.55;
 }
@@ -485,7 +439,7 @@ footer {
 /* FOOTER BOTTOM*/ 
 .footer-bottom {
   text-align: center;
-  color: #f37335;
+  color: black;
   font-size: 1rem;
   margin-top: 1rem;
   letter-spacing: 1px;

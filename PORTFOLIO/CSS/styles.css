@@ -7,14 +7,14 @@
 }
 
 body {
-    background: linear-gradient(to right,rgb(26, 202, 214),rgb(7, 223, 238),rgb(10, 134, 134))
+    background: linear-gradient(to right,rgb(221, 191, 191),rgb(150, 86, 102),rgb(172, 53, 53))
 }
 
 
 /* HEADER STYLE */
 header {
     height: 60px;
-    background: linear-gradient(rgb(75, 163, 179),rgb(22, 158, 199));
+    background: linear-gradient(rgba(141, 19, 19, 0.267),rgb(212, 102, 126));
     display: flex;
     justify-content: justify;
     align-items: center;
@@ -25,7 +25,7 @@ header h1 {
     width: 100%;
     justify-content: center;
     align-items: center;
-    color: rgb(240, 61, 7);
+    color: black(252, 253, 253);
 }
 .logo_img {
     height: 30px;
@@ -44,8 +44,7 @@ header h1 {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: aquamarine;
-    color: rgb(19, 15, 16);
+    color: black;
 }
 
 .about_img {
@@ -61,7 +60,7 @@ header h1 {
 }
 
 .skill h1 {
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
 
 .skill li {
@@ -71,32 +70,65 @@ header h1 {
 
 /* PROJECT SECTION STYLES */
 
-section h2 {
-    color: brown;
+.project {
+    padding: 10px; 
+    width: 100%;
+    margin-bottom: 0;
 }
 
-.project {
-    background: linear-gradient(blue,aquamarine);
-}
 
 .project h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: yellow;
+    color: rgb(255, 0, 0);
+    margin: 10px;
+    margin-left: 0;
 }
+
+.project h2 {
+    color: brown;
+    margin: 3px;
+}
+
 .project_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: justify;
-    align-items: center;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .project_card {
+    width: 500px;
+    background-color: white;
     margin: 10px;
-    padding: 10px;
     border-radius: 25px;
-    background-color: rgb(206, 206, 219);
+    align-items: center;
+}
+
+
+.project_card h2 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project_img {
+    height: 100px;
+    width: 300px;
+    margin-left: 15%;
+}
+
+
+.calculator img {
+    height: 100px;
+    width: 150px;
+    margin-left: 35%;
 }
 /* LINK SECTION */
 
@@ -105,7 +137,7 @@ section h2 {
 }
 
 .link h1 {
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
 
 /* RESUME SECTION */
@@ -120,5 +152,5 @@ section h2 {
 }
 
 .contact h2 {
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
