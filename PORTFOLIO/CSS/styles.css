@@ -1,0 +1,124 @@
+/* GLOBAL STYLE */
+
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right,rgb(26, 202, 214),rgb(7, 223, 238),rgb(10, 134, 134))
+}
+
+
+/* HEADER STYLE */
+header {
+    height: 60px;
+    background: linear-gradient(rgb(75, 163, 179),rgb(22, 158, 199));
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+}
+
+header h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 61, 7);
+}
+.logo_img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+/* ABOUT SECTION STYLE */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: aquamarine;
+    color: rgb(19, 15, 16);
+}
+
+.about_img {
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+}
+
+/* SKILL SECTION STYLE */
+
+.skill {
+    padding: 10px;
+}
+
+.skill h1 {
+    color: yellow;
+}
+
+.skill li {
+    font-weight: 700;
+    color: rgb(19, 15, 16);
+}
+
+/* PROJECT SECTION STYLES */
+
+section h2 {
+    color: brown;
+}
+
+.project {
+    background: linear-gradient(blue,aquamarine);
+}
+
+.project h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+.project_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: justify;
+    align-items: center;
+}
+
+.project_card {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(206, 206, 219);
+}
+/* LINK SECTION */
+
+.link {
+    padding: 10px;
+}
+
+.link h1 {
+    color: yellow;
+}
+
+/* RESUME SECTION */
+.resume {
+    padding: 10px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    padding: 10px;
+}
+
+.contact h2 {
+    color: yellow;
+}

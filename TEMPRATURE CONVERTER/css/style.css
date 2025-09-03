@@ -1,0 +1,27 @@
+* {
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(127, 127, 219, 0.849));
+    color: white;
+}
+
+body h1 {
+    color: rgb(226, 22, 22);
+}
+.result {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.convert {
+    border-radius: 5px;
+}
+
+.convert:hover {
+    background-color: red;
+    transform: translateY(-3px) scale(1);
+}
