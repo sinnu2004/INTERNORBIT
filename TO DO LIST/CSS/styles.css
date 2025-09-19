@@ -105,3 +105,65 @@ h1 {
 .delete-btn:hover {
   background: #b21f2d;
 }
+
+/* For the responsiveness  */
+@media (max-width: 768px) {
+  .todo-container {
+    width: 90%;
+    padding: 15px 20px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  #taskInput {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  #addTaskBtn {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  body {
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .todo-container {
+    width: 100%;
+    padding: 15px;
+    border-radius: 0; 
+    min-height: 100vh;
+    box-shadow: none;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #taskInput,
+  #addTaskBtn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

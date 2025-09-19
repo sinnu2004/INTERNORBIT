@@ -154,3 +154,76 @@ header h1 {
 .contact h2 {
     color: rgb(255, 0, 0);
 }
+
+
+/* responsive style*/
+
+/* Tablets */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_card {
+        width: 90%;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .about {
+        padding: 15px;
+    }
+
+    .about_img {
+        margin: 10px auto;
+    }
+
+    .project_card {
+        width: auto;
+        margin: 10px 0;
+    }
+
+    .project_img,
+    .calculator img {
+        margin: 10px auto;
+        width: auto;
+        height: auto;
+    }
+
+    .skill li {
+        font-size: 0.9rem;
+    }
+
+    .contact,
+    .resume,
+    .link {
+        padding: 15px;
+    }
+}

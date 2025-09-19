@@ -82,3 +82,49 @@ button:hover {
 .clear:hover {
     background: #c9302c;
 }
+
+
+@media (max-width: 768px) {
+    .calculator {
+        width: 250px;
+    }
+
+    .display {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    button {
+        padding: 16px;
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Devices */
+@media (min-width: 480px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .calculator {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 8px;
+    }
+
+    .display {
+        font-size: 1.3rem;
+        height: 45px;
+        padding: 8px;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    button {
+        padding: 14px;
+        font-size: 0.95rem;
+    }
+}

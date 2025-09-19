@@ -1,8 +1,11 @@
+/* global Style*/
+
 * {
     margin: 20px;
     box-sizing: border-box;
 }
 
+/* body style*/
 body {
     background: linear-gradient(rgba(127, 127, 219, 0.849));
     color: white;
@@ -24,4 +27,48 @@ body h1 {
 .convert:hover {
     background-color: red;
     transform: translateY(-3px) scale(1);
+}
+
+/* Responsive style*/
+@media (max-width: 768px) {
+    body h1 {
+        font-size: 1.7rem;
+    }
+
+    .convert {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .result {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    * {
+        margin: 10px;
+    }
+
+    body {
+        text-align: left;
+        padding: 15px;
+    }
+
+    body h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .convert {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .result {
+        font-size: 0.95rem;
+    }
 }

@@ -446,7 +446,7 @@ footer {
   opacity: 0.8;
 }
 
-/* RESPONSIVENESS */
+/* RESPONSIVENESS STYLES */
 @media (max-width: 1000px) {
   .feature-cards {
     grid-template-columns: 1fr;
@@ -469,7 +469,7 @@ footer {
   }
 }
 
-@media (max-width: 640px) {
+@media (min-width: 480px) {
   header, .footer-content, .hero, .features, .testimonials, .cta-section, footer {
     padding-left: 3vw;
     padding-right: 3vw;
